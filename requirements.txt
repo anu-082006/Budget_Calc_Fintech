@@ -1,0 +1,19 @@
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
+openpyxl
+```
+
+Then:
+1. **Commit and push** the `requirements.txt` file to your GitHub repository
+2. **Reboot the app** on Streamlit Cloud (click "Manage app" → "Reboot")
+
+Streamlit Cloud will automatically install all the packages listed in `requirements.txt`.
+
+---
+
+**If you also need Python version specification**, create a file named **`python-runtime.txt`**:
+```
+3.11
